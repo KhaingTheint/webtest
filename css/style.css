@@ -133,9 +133,117 @@
 .payments {
 	font-size: 1.5em;	
 }
+.container .row .form {
+  width: 250px;
+}
 
+.container .row .form .button{
+  color: white;
+  background-color: #141961;
+  height: 40px;
+  width: 250px;
+}
 
+.container .button{
+  text-align: right;
+}
+.container .box1 img{
 
+  width: 730px;
+  height:400px;
+
+}
+
+.container .box1 p{
+  color:#9C9CA0;
+}
+
+.container .box2 img{
+  width: 570px;
+  height:400px;
+}
+
+.container .box2 p{
+  color:#9C9CA0;
+}
+
+.container .box4 img{
+  width: 730px;
+  height:400px;
+}
+
+.container .box4 p{
+  color:#9C9CA0;
+}
+
+.container .box3 img{
+
+  width: 570px;
+  height:400px;
+}
+
+.container .box3 p{
+  color:#9C9CA0;
+}
+
+#headquarter .container .header{
+  text-align: left;
+}
+/*===================*/
+@media only screen and (min-width: 765px) {
+	#latest-job{
+		color: #333;text-align:center;
+	}
+	#job-post{
+		text-align: center;color:#AAAFB1;
+	}
+ 	.mobile {
+ 		display: none;
+ 	}
+ 	.triangle1 {
+        height: 0px;
+		width: 0px;
+		position: absolute;
+		border-top: 417px solid transparent;
+		border-right: 321px solid transparent;
+		border-left: 600px solid #8296AF;
+		border-bottom: 43px solid transparent;
+		opacity: 0.1;
+		transform: rotate(94deg);
+		mix-blend-mode: normal;
+		margin-left: 35%;
+		margin-top: 15%;
+    }
+    .triangle2 {
+        height: 0px;
+        width: 0px;
+        position: absolute;
+        border-top: 300px solid transparent;
+        border-right: 300px solid transparent;
+        border-left: 600px solid #8296AF;
+        border-bottom: 300px solid transparent;
+        opacity: 0.1;
+        transform: rotate(-60deg);
+        mix-blend-mode: normal;
+        margin-left: 55%;
+        margin-top: -10%;
+    }
+    .triangle3 {
+       	height: 0px;
+		width: 0px;
+		position: absolute;
+		border-top: 419px solid transparent;
+		border-right: 300px solid transparent;
+		border-left: 600px solid #8296AF;
+		border-bottom: 275px solid transparent;
+		opacity: 0.1;
+		transform: rotate(-37deg);
+		mix-blend-mode: normal;
+		margin-left: -30%;
+		margin-top: -20%;
+    }
+
+ }
  .header {
  	text-align: center;
  	font-size: 50px;
@@ -143,7 +251,7 @@
  	font-style: bold;
  	font-family: Ubuntu;
  	color: #2B3247;
- 	margin-top: 110px;
+ 	/*margin-top: 60px;*/
  }
  .small-header {
  	opacity: 0.5;
@@ -154,7 +262,7 @@
  	font-style: medium;
  	font-family: Ubuntu;
  }
- .employers {
+.employers {
  	width: 179px;
  	height: 100px;
  	font-family: Ubuntu;
@@ -213,58 +321,19 @@
  	text-align: center;
  	color: #000000;
  }
-
- @media only screen and (min-width: 765px) {
- 	.mobile {
- 		display: none;
- 	}
- 	.triangle1 {
-        height: 0px;
-        width: 0px;
-        position: absolute;
-        border-top: 300px solid transparent;
-        border-right: 300px solid transparent;
-        border-left: 600px solid #8296AF;
-        border-bottom: 300px solid transparent;
-        opacity: 0.1;
-        transform: rotate(-6deg);
-        mix-blend-mode: normal;
-        margin-left: 60%;
-        margin-top: 10%;
-    }
-    .triangle2 {
-        height: 0px;
-        width: 0px;
-        position: absolute;
-        border-top: 300px solid transparent;
-        border-right: 300px solid transparent;
-        border-left: 600px solid #8296AF;
-        border-bottom: 300px solid transparent;
-        opacity: 0.1;
-        transform: rotate(-55deg);
-        mix-blend-mode: normal;
-        margin-left: 55%;
-        margin-top: -10%;
-    }
-    .triangle3 {
-        height: 0px;
-        width: 0px;
-        position: absolute;
-        border-top: 300px solid transparent;
-        border-right: 300px solid transparent;
-        border-left: 600px solid #8296AF;
-        border-bottom: 300px solid transparent;
-        opacity: 0.1;
-        transform: rotate(-45deg);
-        mix-blend-mode: normal;
-        margin-left: -30%;
-        margin-top: -20%;
-    }
-
- }
+ .card-title{
+	font-weight: bold;
+}
 
  @media only screen and (max-width: 765px) {
-
+ 	section{padding:0 !important;}
+ 	#latest-job{
+		color: #333;
+		padding-top: 20px;
+	}
+	#form{
+		margin-bottom: 50px;
+	}
  	 .desktop {
  		display: none;
  	}
