@@ -1,3 +1,12 @@
+/*Text over image*/
+.centered {
+	color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .full {
     width: 100%;    
 }
@@ -189,7 +198,7 @@
 #headquarter .container .header{
   text-align: left;
 }
-/*===================*/
+/*=========For PC view==========*/
 @media only screen and (min-width: 765px) {
 	#latest-job{
 		color: #333;text-align:center;
@@ -324,7 +333,7 @@
  .card-title{
 	font-weight: bold;
 }
-
+/*For Mobile View*/
  @media only screen and (max-width: 765px) {
  	section{padding:0 !important;}
  	#latest-job{
