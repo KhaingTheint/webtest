@@ -6,7 +6,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .full {
     width: 100%;    
 }
@@ -17,7 +16,6 @@
 	display: block;
 }
 .footer {
-	background: #EDEFF1;
 	height: auto;
 	padding-bottom: 30px;
 	position: relative;
@@ -32,7 +30,6 @@
 	max-width: 100%;
 }
 .footer h3 {
-	border-bottom: 1px solid #BAC1C8;
 	color: #54697E;
 	font-size: 18px;
 	font-weight: 600;
@@ -201,10 +198,10 @@
 /*=========For PC view==========*/
 @media only screen and (min-width: 765px) {
 	#latest-job{
-		color: #333;text-align:center;
+		color: #333;
 	}
 	#job-post{
-		text-align: center;color:#AAAFB1;
+		color:#AAAFB1;
 	}
  	.mobile {
  		display: none;
@@ -276,7 +273,7 @@
  	height: 100px;
  	font-family: Ubuntu;
  	font-style: bold;
- 	font-size: 30px;
+ 	font-size:  24px;
  	line-height: 100px;
     text-align: right;
  }
@@ -288,7 +285,7 @@
  	height: 100px;
  	font-family: Ubuntu;
  	font-style: bold;
- 	font-size: 30px;
+ 	font-size: 24px;
  	line-height: 100px;
  	opacity: 0.2;
  	color: #8C93AA;
@@ -299,7 +296,7 @@
  .description h2 {
  	font-family: Ubuntu;
  	font-style: bold;
- 	font-size: 38px;
+ 	font-size: 29px;
  	line-height: 44px;
  	color: #2CA1F8;
     text-decoration-line: underline;
@@ -307,14 +304,14 @@
  .description h3 {
  	font-family: Ubuntu;
  	font-style: bold;
- 	font-size: 25px;
+ 	font-size: 16px
  	line-height: 29px;
  	color: #2B3247;
  }
  .description p {
  	font-family: Ubuntu;
  	font-style: Light;
- 	font-size: 16px;
+ 	font-size: 15px;
  	line-height: 24px;
  	opacity: 0.5;
  	color: #000000;
@@ -336,9 +333,19 @@
 /*For Mobile View*/
  @media only screen and (max-width: 765px) {
  	section{padding:0 !important;}
+ 	header.masthead {
+	    position: relative;
+	    width: 100%;
+	    color: #fff;
+	    background: url(../img/mobile-bg.png),linear-gradient(to left,#7b4397,#21a77c);
+	    height: 131%;
+	}
+	.mb_header{
+		color: #48caf5;
+		line-height: 2px;
+	}
  	#latest-job{
 		color: #333;
-		padding-top: 20px;
 	}
 	#form{
 		margin-bottom: 50px;
