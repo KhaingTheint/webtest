@@ -1,3 +1,10 @@
+.readmore{
+	border: 1px solid black !important;
+	background-color: #fff;
+}
+.jobs_logo{
+	width: 20px;height: 20px;
+}
 /*Text over image*/
 .centered {
 	color: #fff;
@@ -155,9 +162,8 @@
 }
 .container .box1 img{
 
-  width: 626px;
+  width: 100%;
   height:400px;
-
 }
 
 .container .box1 p{
@@ -165,7 +171,7 @@
 }
 
 .container .box2 img{
-  width: 445px;
+  width: 100%;
   height:400px;
 }
 
@@ -197,6 +203,24 @@
 }
 /*=========For PC view==========*/
 @media only screen and (min-width: 765px) {
+	.homebtn{
+		border-radius: 0px !important;
+	}
+	.hometext{
+		background-color:#fff !important;color:#333;padding: 30px;margin-top: 50px;
+	}
+	.latestjobslide li {
+		width: 15px;
+	    height: 15px;
+	    border-radius: 100%;
+	    background-color: lightgrey;
+	}
+	.latestjobslide {
+	    bottom: -70px;
+	}
+	.latestjobslide .active{
+		background-color: black !important;
+	}
 	#latest-job{
 		color: #333;
 	}
@@ -266,12 +290,12 @@
  	font-size: 12px;
  	line-height: 14px;
  	font-style: medium;
- 	font-family: Ubuntu;
+ 	/*font-family: Ubuntu;*/
  }
 .employers {
  	width: 179px;
  	height: 100px;
- 	font-family: Ubuntu;
+ 	/*font-family: Ubuntu;*/
  	font-style: bold;
  	font-size:  24px;
  	line-height: 100px;
@@ -283,7 +307,7 @@
  .candidates {
  	width: 191px;
  	height: 100px;
- 	font-family: Ubuntu;
+ 	/*font-family: Ubuntu;*/
  	font-style: bold;
  	font-size: 24px;
  	line-height: 100px;
@@ -294,7 +318,7 @@
  	text-align: left;
  }
  .description h2 {
- 	font-family: Ubuntu;
+ 	/*font-family: Ubuntu;*/
  	font-style: bold;
  	font-size: 29px;
  	line-height: 44px;
@@ -302,16 +326,16 @@
     text-decoration-line: underline;
  }
  .description h3 {
- 	font-family: Ubuntu;
+ 	/*font-family: Ubuntu;*/
  	font-style: bold;
  	font-size: 16px
  	line-height: 29px;
  	color: #2B3247;
  }
  .description p {
- 	font-family: Ubuntu;
+ 	/*font-family: Ubuntu;*/
  	font-style: Light;
- 	font-size: 15px;
+ 	font-size: 16px;
  	line-height: 24px;
  	opacity: 0.5;
  	color: #000000;
@@ -321,7 +345,7 @@
  	
  }
  .btn-text {
- 	font-family: Ubuntu;
+ 	/*font-family: Ubuntu;*/
  	font-style: bold;
  	font-size: 13px;
  	text-align: center;
@@ -333,12 +357,27 @@
 /*For Mobile View*/
  @media only screen and (max-width: 765px) {
  	section{padding:0 !important;}
+ 	.homebtn{
+ 		text-align: left;color: #fff;margin-top:90%;margin-left: 10%;
+ 	}
+ 	.homebtn_cmp{
+ 		text-align: left;color: #fff;margin-top: 12%;margin-left: 25%;
+ 	}
  	header.masthead {
 	    position: relative;
 	    width: 100%;
 	    color: #fff;
 	    background: url(../img/mobile-bg.png),linear-gradient(to left,#7b4397,#21a77c);
-	    height: 131%;
+	    height: 100%;
+	  	padding-top: 0px  !important;
+	}
+	.carousel1 li {
+	    width: 10px;
+	    height: 10px;
+	    border-radius: 100%;
+	}
+	.carousel1{
+	    bottom: -42px;
 	}
 	.mb_header{
 		color: #48caf5;
@@ -360,7 +399,7 @@
  	.services {
  		padding-top: 23px;
  		padding-left: 20px;
- 		font-family: Ubuntu;
+ 		/*font-family: Ubuntu;*/
  		font-style: bold;
  		font-size: 14px;
  		line-height: 29px;
@@ -370,7 +409,7 @@
  	h1 {
  		padding-left: 20px;
  		width: 60%;
- 		font-family: Ubuntu;
+ 		/*font-family: Ubuntu;*/
  		font-style: bold;
  		font-size: 25px;
  		line-height: 29px;
@@ -389,7 +428,7 @@
  	  opacity: 0.9;
  }
  .desc h2 {
- 	font-family: Ubuntu;
+ 	/*font-family: Ubuntu;*/
  	font-style: bold;
  	font-size: 30px;
  	color: #2CA1F8;
@@ -398,7 +437,7 @@
  }
  .dese h3 {
  	padding-top: 37px;
- 	font-family: Ubuntu;
+ 	/*font-family: Ubuntu;*/
  	font-style: bold;
  	font-size: 16px;
  	color: #2B3247;
@@ -408,7 +447,7 @@
  	padding-right: 15px;
  	padding-left: 15px;
  	text-align: center;
- 	font-family: Ubuntu;
+ 	/*font-family: Ubuntu;*/
  	font-style: light;
  	font-size: 14px;
  	line-height: 20px;
@@ -426,7 +465,7 @@
  .emp {
  	color: #FFFFFF;
  	line-height: 18px;
- 	font-family: Ubuntu;
+ 	/*font-family: Ubuntu;*/
  	font-style: bold;
  	font-size: 16px;
  	margin-top: 15%;
@@ -434,7 +473,7 @@
  .can {
  	color: #FFFFFF;
  	line-height: 18px;
- 	font-family: Ubuntu;
+ 	/*font-family: Ubuntu;*/
  	font-style: bold;
  	font-size: 16px;
  	opacity: 0.3;
