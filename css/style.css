@@ -5,6 +5,10 @@
 .jobs_logo{
 	width: 20px;height: 20px;
 }
+.copyright{
+	line-height: 58px;
+	color: #54697E;
+}
 /*Text over image*/
 .centered {
 	color: #fff;
@@ -358,7 +362,7 @@
  @media only screen and (max-width: 765px) {
  	section{padding:0 !important;}
  	.homebtn{
- 		text-align: left;color: #fff;margin-top:90%;margin-left: 10%;
+ 		text-align: left;color: #fff;margin-top:99%;margin-left: 10%;
  	}
  	.homebtn_cmp{
  		text-align: left;color: #fff;margin-top: 12%;margin-left: 25%;
@@ -370,6 +374,18 @@
 	    background: url(../img/mobile-bg.png),linear-gradient(to left,#7b4397,#21a77c);
 	    height: 100%;
 	  	padding-top: 0px  !important;
+	}
+	.mobilejobs li{
+		width: 10px;
+	    height: 10px;
+	    border-radius: 100%;
+	    background-color: lightgrey;
+	}
+	.mobilejobs{
+	    bottom: -47px;cursor: pointer;
+	}
+	.mobilejobs .active{
+		background-color: black !important;
 	}
 	.carousel1 li {
 	    width: 10px;
@@ -391,6 +407,9 @@
 	}
  	 .desktop {
  		display: none;
+ 	}
+ 	.mb_choosethalescode{
+ 		background: linear-gradient(to bottom right, #33ccff 0%, #b791a4 100%);padding: 16px;padding-bottom: 37px;
  	}
 
  	body {
